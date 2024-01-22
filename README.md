@@ -1,2 +1,5 @@
-# 3d_printer
-This is a personal repo for me to store my notes/config
+# 3D printer configuration
+
+## Sovol SV06
+
+### Setup
