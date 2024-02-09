@@ -1,1 +1,1 @@
-stow --target="~/printer_data/config" klipper
+stow --target="/home/klipper/printer_data/config" klipper
