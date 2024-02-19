@@ -20,8 +20,8 @@
         "Sovol SV05 0.4 nozzle",
         "Sovol SV06 0.4 nozzle",
         "Sovol SV06 Plus 0.4 nozzle",
-        "Sovol SV07 0.4 nozzle",
-        "Sovol SV07 Plus 0.4 nozzle"
+        "Sovol SV06 0.4 nozzle",
+        "Sovol SV06 Plus 0.4 nozzle"
     ],
     "compatible_printers_condition": "",
     "compatible_prints": [],
@@ -36,7 +36,7 @@
         "55"
     ],
     "default_filament_colour": [
-        "#B3B3B3"
+        "#FFFFFF"
     ],
     "during_print_exhaust_fan_speed": [
         "60"
@@ -54,13 +54,13 @@
         "55"
     ],
     "fan_cooling_layer_time": [
-        "7"
+        "4"
     ],
     "fan_max_speed": [
         "100"
     ],
     "fan_min_speed": [
-        "40"
+        "20"
     ],
     "filament_cooling_final_speed": [
         "3.4"
@@ -87,7 +87,7 @@
         "; filament end gcode \n"
     ],
     "filament_flow_ratio": [
-        "0.9312"
+        "0.90307"
     ],
     "filament_is_support": [
         "0"
@@ -102,7 +102,7 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "20"
+        "18"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "15"
@@ -117,7 +117,7 @@
         "10"
     ],
     "filament_notes": [
-        ""
+        "Flow: 0.90307\n\nMFR:\nbroke at 30. Temp was 235°C.\nSet to 18.\n\nBed temp:\n75 sticks like hell on PEI.\nSet to 50.\n\n"
     ],
     "filament_ramming_parameters": [
         "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
@@ -147,10 +147,10 @@
         "nil"
     ],
     "filament_retraction_speed": [
-        "nil"
+        "25"
     ],
     "filament_settings_id": [
-        "CV 1.5 SV07 (PLA Plus) (Grey) (Jayo)"
+        "PR 1.0 SV06 (PETG) (White) (Jayo)"
     ],
     "filament_shrink": [
         "100%"
@@ -165,7 +165,7 @@
         "0"
     ],
     "filament_type": [
-        "PLA"
+        "PETG"
     ],
     "filament_unload_time": [
         "0"
@@ -196,27 +196,27 @@
         "0"
     ],
     "hot_plate_temp": [
-        "60"
+        "50"
     ],
     "hot_plate_temp_initial_layer": [
-        "60"
+        "50"
     ],
-    "inherits": "Sovol Generic PLA",
-    "name": "CV 1.5 SV07 (PLA Plus) (Grey) (Jayo)",
+    "inherits": "Sovol Generic PETG",
+    "name": "PR 1.0 SV06 (PETG) (White) (Jayo)",
     "nozzle_temperature": [
-        "215"
+        "235"
     ],
     "nozzle_temperature_initial_layer": [
-        "215"
+        "235"
     ],
     "nozzle_temperature_range_high": [
-        "215"
+        "250"
     ],
     "nozzle_temperature_range_low": [
-        "205"
+        "220"
     ],
     "overhang_fan_speed": [
-        "95"
+        "100"
     ],
     "overhang_fan_threshold": [
         "25%"
@@ -240,7 +240,7 @@
         "10"
     ],
     "support_material_interface_fan_speed": [
-        "95"
+        "100"
     ],
     "temperature_vitrification": [
         "100"

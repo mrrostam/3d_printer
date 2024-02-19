@@ -144,7 +144,7 @@
         "25"
     ],
     "filament_settings_id": [
-        "CV 1.5 SV07 (PETG) (Orange) (Eryone)"
+        "PR 1.0 SV06 (PETG) (Orange) (Eryone)"
     ],
     "filament_shrink": [
         "100%"
@@ -196,7 +196,7 @@
         "64"
     ],
     "inherits": "Sovol Generic PETG",
-    "name": "CV 1.5 SV07 (PETG) (Orange) (Eryone)",
+    "name": "PR 1.0 SV06 (PETG) (Orange) (Eryone)",
     "nozzle_temperature": [
         "230"
     ],

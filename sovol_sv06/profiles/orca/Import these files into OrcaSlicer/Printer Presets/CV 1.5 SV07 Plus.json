@@ -14,7 +14,7 @@
     "default_filament_profile": [
         "Sovol Generic PLA"
     ],
-    "default_print_profile": "CV 1.5 SV07 100mms",
+    "default_print_profile": "PR 1.0 SV06 100mms",
     "deretraction_speed": [
         "40"
     ],
@@ -36,7 +36,7 @@
     "gcode_flavor": "klipper",
     "high_current_on_filament_swap": "0",
     "host_type": "octoprint",
-    "inherits": "Sovol SV07 Plus 0.4 nozzle",
+    "inherits": "Sovol SV06 Plus 0.4 nozzle",
     "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;[layer_z]\n",
     "machine_end_gcode": "; ### Required End-Print-macro for the Klipper Printer Additions\": Cleans up state, presents the print, moves head higher up, turn off extruder, bed, motors, fan. ###\n_End_Print\n\n; ### Optional call to \"Christian Vick's Klipper Printer Additions\": Let the external part fan run to cool the build plate fast. Set the build plate with the model vertically on the bed, and let the fan blow on it. Quite handy if you print in a row, or for impatient people. :-) ###\n; ### If you want to use this, remove the \";\" from the beginning of the next line: ###\n;Fan_Part_Aux_Timer SECONDS=180 SPEED=50  ;### This is for Printer Addtions v2.5 and higher. ###\n\n\n; ### Alternatively, the standard end-print macro in printer.cfg ###\n; ### If you want to use this, remove the \";\" from the next line, and disable the KPA-macro at the top: ###\n;END_PRINT\n\n",
     "machine_load_filament_time": "0",
@@ -115,7 +115,7 @@
     "min_layer_height": [
         "0.07"
     ],
-    "name": "CV 1.5 SV07 Plus",
+    "name": "PR 1.0 SV06 Plus",
     "nozzle_diameter": [
         "0.4"
     ],
@@ -132,9 +132,9 @@
         "0x300"
     ],
     "printable_height": "350",
-    "printer_model": "Sovol SV07 Plus",
+    "printer_model": "Sovol SV06 Plus",
     "printer_notes": "",
-    "printer_settings_id": "CV 1.5 SV07 Plus",
+    "printer_settings_id": "PR 1.0 SV06 Plus",
     "printer_structure": "undefine",
     "printer_technology": "FFF",
     "printer_variant": "0.4",

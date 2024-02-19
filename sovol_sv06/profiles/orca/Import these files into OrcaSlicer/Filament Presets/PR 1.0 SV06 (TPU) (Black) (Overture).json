@@ -20,8 +20,8 @@
         "Sovol SV05 0.4 nozzle",
         "Sovol SV06 0.4 nozzle",
         "Sovol SV06 Plus 0.4 nozzle",
-        "Sovol SV07 0.4 nozzle",
-        "Sovol SV07 Plus 0.4 nozzle"
+        "Sovol SV06 0.4 nozzle",
+        "Sovol SV06 Plus 0.4 nozzle"
     ],
     "compatible_printers_condition": "",
     "compatible_prints": [],
@@ -36,7 +36,7 @@
         "55"
     ],
     "default_filament_colour": [
-        "#FFFFFF"
+        "#333333"
     ],
     "during_print_exhaust_fan_speed": [
         "60"
@@ -54,13 +54,13 @@
         "55"
     ],
     "fan_cooling_layer_time": [
-        "4"
+        "100"
     ],
     "fan_max_speed": [
         "100"
     ],
     "fan_min_speed": [
-        "20"
+        "70"
     ],
     "filament_cooling_final_speed": [
         "3.4"
@@ -87,7 +87,7 @@
         "; filament end gcode \n"
     ],
     "filament_flow_ratio": [
-        "0.90307"
+        "0.9702"
     ],
     "filament_is_support": [
         "0"
@@ -102,7 +102,7 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "18"
+        "1.8"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "15"
@@ -117,7 +117,7 @@
         "10"
     ],
     "filament_notes": [
-        "Flow: 0.90307\n\nMFR:\nbroke at 30. Temp was 235°C.\nSet to 18.\n\nBed temp:\n75 sticks like hell on PEI.\nSet to 50.\n\n"
+        "0.9702\nRetraction Speed:\n√ 20 (schranzt aber n bisschen)\n√ 15 (wohl immer noch n bisschen)\n3 Durchmesser des Bauteils ändert sich - es gibt eine Auswölbung\n10\nVolumetric flow:\n√ 1.2\n√ 1.6\n√ 1.8\n√ 2.0\n√ 2.2\n√ 2.4\n2.6 tangles\n2.4 tangles\n2.2 tangles\nGrub screw was lose!\n2.6 tangles\n√ 2.0\n√ 2.2\n2.4 tangles\nok, border is 2.4/2.6. where is it reliable over time?\n2.0 worked, but then tangled.\n1.8 tangled immediately - grub screw lose again! Tightened harder this time.\n2.0 tangles\n1.8 tangles, screw ok.\n√ 1.6 seems ok. Was the problem maybe the non-removal of the precious prime line?\n√ 1.8\n√ 2.0\n√ 2.2\n2.4 tangles. \n2.1 worked some time, then tangled.\n2.0 mostly fine, but tangled.\n1.8\n\n\n\n\n\n\n"
     ],
     "filament_ramming_parameters": [
         "120 100 6.6 6.8 7.2 7.6 7.9 8.2 8.7 9.4 9.9 10.0| 0.05 6.6 0.45 6.8 0.95 7.8 1.45 8.3 1.95 9.7 2.45 10 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
@@ -141,16 +141,16 @@
         "nil"
     ],
     "filament_retraction_length": [
-        "nil"
+        "1.8"
     ],
     "filament_retraction_minimum_travel": [
         "nil"
     ],
     "filament_retraction_speed": [
-        "25"
+        "15"
     ],
     "filament_settings_id": [
-        "CV 1.5 SV07 (PETG) (White) (Jayo)"
+        "PR 1.0 SV06 (TPU) (Black) (Overture)"
     ],
     "filament_shrink": [
         "100%"
@@ -165,7 +165,7 @@
         "0"
     ],
     "filament_type": [
-        "PETG"
+        "TPU"
     ],
     "filament_unload_time": [
         "0"
@@ -177,7 +177,7 @@
         "100"
     ],
     "filament_vendor": [
-        "Jayo"
+        "Overture"
     ],
     "filament_wipe": [
         "nil"
@@ -196,24 +196,24 @@
         "0"
     ],
     "hot_plate_temp": [
-        "50"
+        "20"
     ],
     "hot_plate_temp_initial_layer": [
-        "50"
+        "20"
     ],
-    "inherits": "Sovol Generic PETG",
-    "name": "CV 1.5 SV07 (PETG) (White) (Jayo)",
+    "inherits": "Sovol Generic PLA",
+    "name": "PR 1.0 SV06 (TPU) (Black) (Overture)",
     "nozzle_temperature": [
-        "235"
+        "220"
     ],
     "nozzle_temperature_initial_layer": [
-        "235"
+        "220"
     ],
     "nozzle_temperature_range_high": [
-        "250"
+        "230"
     ],
     "nozzle_temperature_range_low": [
-        "220"
+        "210"
     ],
     "overhang_fan_speed": [
         "100"
@@ -231,10 +231,10 @@
         "0"
     ],
     "slow_down_for_layer_cooling": [
-        "1"
+        "0"
     ],
     "slow_down_layer_time": [
-        "2"
+        "0"
     ],
     "slow_down_min_speed": [
         "10"

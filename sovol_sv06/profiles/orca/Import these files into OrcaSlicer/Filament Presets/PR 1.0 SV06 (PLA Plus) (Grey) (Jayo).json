@@ -20,8 +20,8 @@
         "Sovol SV05 0.4 nozzle",
         "Sovol SV06 0.4 nozzle",
         "Sovol SV06 Plus 0.4 nozzle",
-        "Sovol SV07 0.4 nozzle",
-        "Sovol SV07 Plus 0.4 nozzle"
+        "Sovol SV06 0.4 nozzle",
+        "Sovol SV06 Plus 0.4 nozzle"
     ],
     "compatible_printers_condition": "",
     "compatible_prints": [],
@@ -36,7 +36,7 @@
         "55"
     ],
     "default_filament_colour": [
-        "#666666"
+        "#B3B3B3"
     ],
     "during_print_exhaust_fan_speed": [
         "60"
@@ -54,13 +54,13 @@
         "55"
     ],
     "fan_cooling_layer_time": [
-        "3"
+        "7"
     ],
     "fan_max_speed": [
         "100"
     ],
     "fan_min_speed": [
-        "20"
+        "40"
     ],
     "filament_cooling_final_speed": [
         "3.4"
@@ -87,7 +87,7 @@
         "; filament end gcode \n"
     ],
     "filament_flow_ratio": [
-        "0.9405"
+        "0.9312"
     ],
     "filament_is_support": [
         "0"
@@ -102,7 +102,7 @@
         "3"
     ],
     "filament_max_volumetric_speed": [
-        "22"
+        "20"
     ],
     "filament_minimal_purge_on_wipe_tower": [
         "15"
@@ -150,7 +150,7 @@
         "nil"
     ],
     "filament_settings_id": [
-        "CV 1.5 SV07 (PLA Meta) (Black) (Jayo)"
+        "PR 1.0 SV06 (PLA Plus) (Grey) (Jayo)"
     ],
     "filament_shrink": [
         "100%"
@@ -202,30 +202,30 @@
         "60"
     ],
     "inherits": "Sovol Generic PLA",
-    "name": "CV 1.5 SV07 (PLA Meta) (Black) (Jayo)",
+    "name": "PR 1.0 SV06 (PLA Plus) (Grey) (Jayo)",
     "nozzle_temperature": [
-        "190"
+        "215"
     ],
     "nozzle_temperature_initial_layer": [
-        "200"
+        "215"
     ],
     "nozzle_temperature_range_high": [
-        "200"
+        "215"
     ],
     "nozzle_temperature_range_low": [
-        "180"
+        "205"
     ],
     "overhang_fan_speed": [
-        "100"
+        "95"
     ],
     "overhang_fan_threshold": [
-        "50%"
+        "25%"
     ],
     "pressure_advance": [
         "0.02"
     ],
     "reduce_fan_stop_start_freq": [
-        "1"
+        "0"
     ],
     "required_nozzle_HRC": [
         "0"
@@ -234,13 +234,13 @@
         "1"
     ],
     "slow_down_layer_time": [
-        "1"
+        "2"
     ],
     "slow_down_min_speed": [
         "10"
     ],
     "support_material_interface_fan_speed": [
-        "100"
+        "95"
     ],
     "temperature_vitrification": [
         "100"

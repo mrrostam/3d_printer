@@ -19,8 +19,8 @@
     "compatible_printers": [
         "Sovol SV06 0.4 nozzle",
         "Sovol SV06 Plus 0.4 nozzle",
-        "Sovol SV07 0.4 nozzle",
-        "Sovol SV07 Plus 0.4 nozzle"
+        "Sovol SV06 0.4 nozzle",
+        "Sovol SV06 Plus 0.4 nozzle"
     ],
     "compatible_printers_condition": "",
     "default_acceleration": "2500",
@@ -62,7 +62,7 @@
     "infill_direction": "45",
     "infill_jerk": "3",
     "infill_wall_overlap": "44.01%",
-    "inherits": "0.20mm Standard @Sovol SV07",
+    "inherits": "0.20mm Standard @Sovol SV06",
     "initial_layer_acceleration": "2500",
     "initial_layer_infill_speed": "50",
     "initial_layer_jerk": "1",
@@ -101,7 +101,7 @@
     "min_feature_size": "25%",
     "min_width_top_surface": "300%",
     "minimum_sparse_infill_area": "10",
-    "name": "CV 1.5 SV07 050mms",
+    "name": "PR 1.0 SV06 050mms",
     "notes": "",
     "only_one_wall_first_layer": "0",
     "only_one_wall_top": "0",
@@ -124,7 +124,7 @@
     "prime_volume": "45",
     "print_flow_ratio": "1",
     "print_sequence": "by layer",
-    "print_settings_id": "CV 1.5 SV07 050mms",
+    "print_settings_id": "PR 1.0 SV06 050mms",
     "raft_contact_distance": "0.1",
     "raft_expansion": "1.5",
     "raft_first_layer_density": "90%",

@@ -14,7 +14,7 @@
     "default_filament_profile": [
         "Sovol Generic PLA"
     ],
-    "default_print_profile": "CV 1.5 SV07 100mms",
+    "default_print_profile": "PR 1.0 SV06 100mms",
     "deretraction_speed": [
         "40"
     ],
@@ -115,7 +115,7 @@
     "min_layer_height": [
         "0.07"
     ],
-    "name": "CV 1.5b1 SV06 Plus Klipper",
+    "name": "PR 1.0b1 SV06 Plus Klipper",
     "nozzle_diameter": [
         "0.4"
     ],
@@ -134,7 +134,7 @@
     "printable_height": "340",
     "printer_model": "Sovol SV06 Plus",
     "printer_notes": "",
-    "printer_settings_id": "CV 1.5b1 SV06 Plus Klipper",
+    "printer_settings_id": "PR 1.0b1 SV06 Plus Klipper",
     "printer_structure": "undefine",
     "printer_technology": "FFF",
     "printer_variant": "0.4",
