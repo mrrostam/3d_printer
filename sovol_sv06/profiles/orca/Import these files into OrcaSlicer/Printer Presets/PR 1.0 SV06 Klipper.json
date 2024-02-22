@@ -123,7 +123,7 @@
     "nozzle_type": "brass",
     "nozzle_volume": "0",
     "parking_pos_retraction": "92",
-    "print_host": "192.168.178.55",
+    "print_host": "10.0.0.188",
     "print_host_webui": "",
     "printable_area": [
         "0x0",
